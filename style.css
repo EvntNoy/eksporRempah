@@ -238,6 +238,8 @@ button:active {
   background-size: cover;
   position: relative;
   height: 300px;
+  /* tambahan */
+  margin-top: 90px;
 }
 .banner-area:before {
   content: '';
@@ -373,7 +375,9 @@ header .header-navbar {
   margin-bottom: 0;
   padding: 0;
   line-height: 100%;
+  background-color: #ffffff;
 }
+
 header .header-navbar .main-menu nav ul li,
 header .main-menu-v2 .menu-hiden nav ul li {
   display: inline-block;
@@ -382,7 +386,7 @@ header .main-menu-v2 .menu-hiden nav ul li {
 header .header-navbar .main-menu nav ul > li > a,
 header .main-menu-v2 .menu-hiden nav ul > li > a {
   background-color: transparent;
-  font-size: 16px;
+  font-size: 20px;
   color: #333333;
   border-bottom: 2px solid transparent;
   line-height: 86px;
@@ -721,6 +725,8 @@ header .login-btn a:hover {
   position: relative;
   z-index: 9;
   width: 100%;
+  /* tambahan */
+  margin-top: 90px;
 }
 .slider-area .slider-home1 .slider-item img {
   width: 100%;
@@ -740,7 +746,9 @@ header .login-btn a:hover {
   color: #fff;
 }
 .slider-area .slider-home1 .slider-item .content-area .slider-content {
-  padding-top: 25%;
+  /* padding-top: 25%; */
+  /* tambahan */
+  padding-top: 35%;
 }
 .slider-area .slider-home1 .slider-item .content-area .slider-content h1 {
   color: #f44336;
@@ -1412,6 +1420,10 @@ header .login-btn a:hover {
 /*....................................
 6.3 Property details area start here
 ....................................*/
+.property-details-area {
+  /* tambahan */
+  margin-top: 150px;
+}
 .property-details-area i {
   color: #f44336;
 }
@@ -2889,6 +2901,8 @@ header .login-btn a:hover {
 ....................................*/
 .about-area {
   position: relative;
+  /* tambahan */
+  margin-top: 150px;
 }
 .about-area .about-content h2 {
   text-transform: uppercase;
