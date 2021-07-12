@@ -27,13 +27,13 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
         $mail->Port       = 587;
     
         //Recipients
-        $mail->setFrom('phising2209@gmail.com', 'Nama Pengirim');
-        $mail->addAddress($email); 
+        $mail->setFrom('phising2209@gmail.com', 'AGROPUTRA');
+        $mail->addAddress('phising2209@gmail.com'); 
     
         //Content
         $mail->isHTML(true);
         $mail->Subject = $subject . ' ' . $name;
-        $mail->Body    = $messages;
+        $mail->Body    = "Nama = " . $name . "<br/>" . "Email = " . $email . "<br/>" . "Nomor Telepon = " . $number . "<br/><br/>" . $messages;
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     
         $mail->send();

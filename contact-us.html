@@ -58,14 +58,14 @@
         <div class="header-navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="row">
-              <div class="col-md-3 col-sm-12 col-xs-12">
+              <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="header-logo">
                   <a href="index.html">
                     <img src="images/logo/logo-v1.png" alt="" />
                   </a>
                 </div>
               </div>
-              <div class="col-md-9 col-sm-12 col-xs-12">
+              <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="phone-menu">
                   <i class="fa fa-bars show-menu"></i>
                 </div>
@@ -177,25 +177,18 @@
               <form id="myForm" method="POST" action="sendEmail.php">
                 <ul>
                   <li>
-                    <input type="text" name="name" placeholder="Your Name" />
+                    <input type="text" name="name" placeholder="Your Name" required />
                   </li>
                   <li>
-                    <input type="email" name="email" placeholder="Your Email" />
+                    <input type="email" name="email" placeholder="Your Email" required />
                   </li>
                   <li>
-                    <input
-                      type="text"
-                      name="number"
-                      placeholder="Phone Number"
+                    <input type="text" name="number" placeholder="Phone Number" required
                     />
                   </li>
                 </ul>
-                <textarea
-                  rows="8"
-                  name="messages"
-                  placeholder="Your Messages"
-                ></textarea>
-                <button type="submit" onclick="sendEmail()" class="btn-b">
+                <textarea rows="8" name="messages" placeholder="Your Messages" required></textarea>
+                <button type="submit" class="btn-b">
                   Send Email
                 </button>
               </form>
